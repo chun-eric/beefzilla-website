@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&family=Lato:wght@100;300;400;700;900&family=League+Spartan:wght@400;500;600&family=M+PLUS+1:wght@400;500&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Food website</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- navbar-->
+      <nav class="navbar">
+        <!-- logo -->
+        <img src="./img/logo.png" alt="" class="logo" alt="" />
+
+        <!-- links -->
+        <ul class="links-container">
+          <li class="link-items">
+            <a href="" class="links">Menu</a>
+          </li>
+          <li class="link-items">
+            <a href="" class="links">Order</a>
+          </li>
+          <li class="link-items">
+            <a href="" class="links">Restaurants</a>
+          </li>
+          <li class="link-items">
+            <a href="" class="links">Track Order</a>
+          </li>
+        </ul>
+
+        <!-- searchbox input -->
+        <div class="navbar-right">
+          <!-- input search box -->
+          <div class="search">
+            <input
+              class="search-input"
+              type="text"
+              placeholder="Search a restuarant or dish..."
+            />
+            <button class="search-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+
+          <!-- cart btn -->
+          <a href="#" class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </div>
+      </nav>
+
+      <!-- hero section -->
+      <main id="hero-section">
+        <!-- hero content -left  -->
+        <div class="hero-content">
+          <h1 class="hero-heading">Eat the Best</h1>
+          <p class="hero-line">
+            Explore and understand the culture more by tasting the amazing
+            dishes of that culture
+          </p>
+          <div class="search location">
+            <input
+              class="search-input"
+              type="text"
+              placeholder="Search a restuarant or dish..."
+            />
+            <button class="search-btn locate-btn">
+              <i class="fa-solid fa-location-crosshairs"></i>
+            </button>
+          </div>
+          <div class="hero-action-btn-container">
+            <button class="btn">Order Food</button>
+            <p class="or">or</p>
+            <button class="btn transparent">Make Reservation</button>
+          </div>
+        </div>
+
+        <!-- hero image container - 
+          right -->
+        <div class="hero-img-container">
+          <div class="background-element">
+            <div class="ellipse"></div>
+            <div class="ellipse"></div>
+            <div class="ellipse"></div>
+          </div>
+          <div class="foreground-elements">
+            <img src="./img/hero-biryani.png" alt="" class="hero-img" />
+            <img src="./img/hero-burger.png" alt="" class="hero-img" />
+            <img src="./img/hero-pizza.png" alt="" class="hero-img" />
+
+            <div class="review-box">
+              <div class="reviewer-info">
+                <img src="./img/user-1.png" alt="" class="reviewer-img" />
+
+                <div class="reviewer">
+                  <div class="reviewer-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h2 class="reviewer-name">John</h2>
+                </div>
+              </div>
+              <div class="review-body">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="review">
+                  The restaurant was good. Staff was very welcoming and the
+                  burgers were top notch, fresh, and absolutely delicious.
+                  Highly recommended.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </header>
+
+    <!-- restaurant section -->
+    <section id="restaurants-section">
+      <div class="leaf-layer right">
+        <img src="./img/leafs.png" alt="" />
+      </div>
+
+      <div class="section">
+        <!-- food  image container-->
+        <div class="food-image-container">
+          <div class="circle">
+            <span></span><span></span><span></span><span></span><span></span
+            ><span></span>
+          </div>
+          <div class="circle">
+            <span></span><span></span><span></span><span></span><span></span
+            ><span></span>
+          </div>
+          <div>
+            <img src="./img/food-1.png" alt="" class="food-img" />
+            <img src="./img/food-2.png" alt="" class="food-img" />
+            <img src="./img/food-3.png" alt="" class="food-img" />
+            <img src="./img/food-4.png" alt="" class="food-img" />
+            <img src="./img/food-5.png" alt="" class="food-img" />
+            <img src="./img/food-6.png" alt="" class="food-img" />
+            <img src="./img/food-7.png" alt="" class="food-img" />
+          </div>
+        </div>
+
+        <!-- section content-->
+        <div class="section-detail">
+          <span class="section-highlight">From Professional chef</span>
+          <p class="section-title">1000+</p>
+          <p class="section-info">
+            Order from our 1000+ food and beverages menu. Food meant for
+            everyone.
+          </p>
+          <button class="btn">order food</button>
+        </div>
+      </div>
+
+      <div class="restaurants-container">
+        <div class="restaurant">
+          <p class="discount">50% off</p>
+          <div class="restaurant-thumbnail">
+            <img src="./img/restaurant-1.png" alt="" class="restaurant-image" />
+          </div>
+          <div class="restaurant-body">
+            <h3 class="restaurant-name">Restaurant 01</h3>
+            <p class="menu">Burgers, Fries, Nuggest</p>
+            <p class="place">New York</p>
+            <span class="rating">4.2 <i class="fa-solid fa-star"></i></span>
+          </div>
+        </div>
+        <div class="restaurant">
+          <div class="restaurant-thumbnail">
+            <img src="./img/restaurant-2.png" alt="" class="restaurant-image" />
+          </div>
+          <div class="restaurant-body">
+            <h3 class="restaurant-name">Restaurant 02</h3>
+            <p class="menu">Burgers, Fries, Nuggest, Spaghetti</p>
+            <p class="place">New York</p>
+            <span class="rating">4.2 <i class="fa-solid fa-star"></i></span>
+          </div>
+        </div>
+        <div class="restaurant">
+          <p class="discount">50% off</p>
+          <div class="restaurant-thumbnail">
+            <img src="./img/restaurant-3.png" alt="" class="restaurant-image" />
+          </div>
+          <div class="restaurant-body">
+            <h3 class="restaurant-name">Restaurant 03</h3>
+            <p class="menu">Burgers, Fries, Nuggest</p>
+            <p class="place">New York</p>
+            <span class="rating">4.2 <i class="fa-solid fa-star"></i></span>
+          </div>
+        </div>
+        <div class="restaurant">
+          <div class="restaurant-thumbnail">
+            <img src="./img/restaurant-4.png" alt="" class="restaurant-image" />
+          </div>
+          <div class="restaurant-body">
+            <h3 class="restaurant-name">Restaurant 04</h3>
+            <p class="menu">Burgers, Fries, Nuggest</p>
+            <p class="place">New York</p>
+            <span class="rating">4.2 <i class="fa-solid fa-star"></i></span>
+          </div>
+        </div>
+        <div class="restaurant">
+          <div class="restaurant-thumbnail">
+            <img src="./img/restaurant-5.png" alt="" class="restaurant-image" />
+          </div>
+          <div class="restaurant-body">
+            <h3 class="restaurant-name">Restaurant 05</h3>
+            <p class="menu">Burgers, Fries, Nuggest</p>
+            <p class="place">New York</p>
+            <span class="rating">4.2 <i class="fa-solid fa-star"></i></span>
+          </div>
+        </div>
+        <div class="restaurant">
+          <p class="discount">50% off</p>
+          <div class="restaurant-thumbnail">
+            <img src="./img/restaurant-6.png" alt="" class="restaurant-image" />
+          </div>
+          <div class="restaurant-body">
+            <h3 class="restaurant-name">Restaurant 06</h3>
+            <p class="menu">Burgers, Fries, Nuggest</p>
+            <p class="place">New York</p>
+            <span class="rating">4.2 <i class="fa-solid fa-star"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="leaf-layer left">
+        <img src="./img/leafs.png" alt="" />
+      </div>
+    </section>
+  </body>
+</html>
